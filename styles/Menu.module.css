@@ -1,0 +1,17 @@
+.box {
+    width: 40%;
+    height: 100px;
+    background: #BDB7C0;
+
+}
+
+.box p {
+    color: black;
+    align-items: center;
+    line-height: 60px;
+}
+
+.position {
+    text-align: center;
+    margin: 1rem auto;
+}
