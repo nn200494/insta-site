@@ -6,6 +6,7 @@ import ProfImg from 'components/ProfImg'
 import Menu from 'components/Menu'
 import ProfileMassege from 'components/ProfileMassege'
 import Footer from 'components/Footer'
+import H1 from 'components/H1'
 
 
 const Home: NextPage = () => {
@@ -25,7 +26,10 @@ const Home: NextPage = () => {
           <Menu text='500px' url='https://500px.com/p/nanamurakami?view=photos' />
           <Menu text='愛猫アカウント' url='' />
         </div>
-        <ProfileMassege text='愛猫アカウント' url='' />
+        <div style={{ marginTop: "4rem", marginBottom: "15rem" }}>
+          <H1 text='愛猫アカウント' />
+          <ProfileMassege text='愛猫アカウント' url='' />
+        </div>
       </div>
       <Footer text='@copylight' />
     </div>

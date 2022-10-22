@@ -12,6 +12,7 @@ const Header: FC<HeaderProps> = (props) => {
   return (
     <div className={styles['header']}>
       <p>{text}</p>
+      <hr></hr>
     </div>
   )
 }

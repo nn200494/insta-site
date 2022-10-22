@@ -1,6 +1,8 @@
 .header {
-    background: linear-gradient(to right, #EC5C3B, #ecca74);
-    text-align: center;
-    color: #632620;
+    color: #8C69DE;
     padding: 0.1rem;
+}
+
+.header p {
+    margin-left: 1rem;
 }

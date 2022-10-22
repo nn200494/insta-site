@@ -5,14 +5,12 @@ import styles from 'styles/ProfileMassege.module.css'
 
 type ProfileMassegeProps = {
   text: string
-  url: string
 }
 
 const ProfileMassege: FC<ProfileMassegeProps> = (props) => {
-  const { text, url } = props
+  const { text } = props
   return (
     <div className={styles['profile-wrap']}>
-      <h1 className={styles['title']}>My Profile</h1>
       <p>エンジニア歴4年目の社会人。<br />
         (Java歴：2年、PHP歴：2年ほど)<br /><br />
 

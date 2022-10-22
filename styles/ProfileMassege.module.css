@@ -2,15 +2,9 @@
     width: 100%;
     height: auto;
     text-align: center;
-    margin: 4rem auto;
-    color: #632620;
+    color: #6D6B71;
 }
 
 .profile-wrap p {
     line-height: 2rem;
-}
-
-.title {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
 }
