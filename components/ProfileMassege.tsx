@@ -14,7 +14,7 @@ const ProfileMassege: FC<ProfileMassegeProps> = (props) => {
     <div className={styles['profile-wrap']}>
       <h1 className={styles['title']}>My Profile</h1>
       <p>エンジニア歴4年目の社会人。<br />
-        (Java歴：2年、PHP歴2年ほど)<br /><br />
+        (Java歴：2年、PHP歴：2年ほど)<br /><br />
 
         雪山であるシステムエンジニアの方と<br />
         出会い影響を受けエンジニアを目指す。<br /><br />

@@ -1,14 +1,16 @@
 .box {
+    /* background-color: #e99049; */
+    background: linear-gradient(to bottom, #e99049, #e9904987);
     width: 40%;
-    height: 100px;
-    background: #BDB7C0;
-
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .box p {
-    color: black;
+    color: #632620;
     align-items: center;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .position {

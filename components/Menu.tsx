@@ -11,7 +11,7 @@ type MenuProps = {
 const Menu: FC<MenuProps> = (props) => {
   const { text, url } = props
   return (
-    <a href={url} className={`${styles['box']} ${styles['position']}`}>
+    <a href={url} className={`${styles['box']} ${styles['position']}`} target='_blank'>
       <p>{text}</p>
     </a>
   )
