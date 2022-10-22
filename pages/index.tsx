@@ -17,9 +17,9 @@ const Home: NextPage = () => {
         <meta name="description" content="プロフィールサイト" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header text='nana Web系エンジニア' />
+      <Header text='Nana Web系エンジニア' />
       <div>
-        <ProfImg url='/profile.png' />
+        <ProfImg url='/profile.jpeg' />
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Menu text='ポートフォリオ' url='https://github.com/nn200494?tab=repositories' />
           <Menu text='直接お話ししたい' url='https://pay-career.com/spot_request/2280491509/' />

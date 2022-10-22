@@ -1,8 +1,15 @@
 .header {
-    color: #8C69DE;
+    color: #BBABE8;
     padding: 0.1rem;
 }
 
 .header p {
     margin-left: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header hr {
+    border: none;
+    border-top: 2.5px dashed #BBABE8;
 }
