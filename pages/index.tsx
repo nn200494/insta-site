@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Header from 'components/Header'
+import Header from 'components/Header.tsx'
 import ProfImg from 'components/ProfImg'
 import Menu from 'components/Menu'
 import ProfileMassege from 'components/ProfileMassege'
