@@ -26,13 +26,16 @@ const Home: NextPage = () => {
           <Menu text='500px' url='https://500px.com/p/nanamurakami?view=photos' />
           <Menu text='愛猫アカウント' url='' />
         </div>
-        <div style={{ marginTop: "4rem", marginBottom: "15rem" }}>
+        <div style={{ marginTop: "3rem", marginBottom: "15rem" }}>
           <H1 text='愛猫アカウント' />
           <ProfileMassege text='愛猫アカウント' url='' />
         </div>
       </div>
+      <img src="/insta-icon.png" ></img>
+      <img src="/twitter.png" ></img>
+      <img src="/facebook.png" ></img>
       <Footer text='@copylight' />
-    </div>
+    </div >
   )
 }
 
