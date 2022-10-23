@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         </div>
         <div style={{ marginTop: "3rem", marginBottom: "15rem" }}>
           <H1 text='愛猫アカウント' />
-          <ProfileMassege text='愛猫アカウント' url='' />
+          <ProfileMassege text='愛猫アカウント' />
         </div>
       </div>
       <img src="/insta-icon.png" ></img>
