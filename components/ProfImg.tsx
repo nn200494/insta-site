@@ -4,7 +4,6 @@ import styles from 'styles/ProfImg.module.css'
 
 
 type ProfImgProps = {
-  text: string,
   url: string
 }
 
