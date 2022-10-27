@@ -7,7 +7,7 @@ import Menu from '../components/Menu'
 import ProfileMassege from '../components/ProfileMassege'
 import Footer from '../components/Footer'
 import H1 from '../components/H1'
-
+import Sns from '../components/Sns'
 
 const Home: NextPage = () => {
   return (
@@ -24,16 +24,14 @@ const Home: NextPage = () => {
           <Menu text='ポートフォリオ' url='https://github.com/nn200494?tab=repositories' />
           <Menu text='直接お話ししたい' url='https://pay-career.com/spot_request/2280491509/' />
           <Menu text='500px' url='https://500px.com/p/nanamurakami?view=photos' />
-          <Menu text='愛猫アカウント' url='' />
+          <Menu text='愛猫アカウント' url='https://www.instagram.com/web_engineer_77/' />
         </div>
-        <div style={{ marginTop: "3rem", marginBottom: "15rem" }}>
+        <div style={{ marginTop: "3rem" }}>
           <H1 text='愛猫アカウント' />
           <ProfileMassege text='愛猫アカウント' />
         </div>
       </div>
-      <img src="/insta-icon.png" ></img>
-      <img src="/twitter.png" ></img>
-      <img src="/facebook.png" ></img>
+      <Sns text='' />
       <Footer text='@copylight' />
     </div >
   )

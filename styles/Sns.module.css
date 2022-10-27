@@ -1,0 +1,9 @@
+.sns_wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.sns_wrap img {
+    margin: 1rem;
+    width: 2rem;
+}
