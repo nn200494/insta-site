@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <Sns text='' />
-      <Footer text='@copylight' />
+      <Footer text='Copyright © 2022 Umu Inc. All Rights Reserved.' />
     </div >
   )
 }
