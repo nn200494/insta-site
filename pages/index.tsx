@@ -7,7 +7,6 @@ import Menu from '../components/Menu'
 import ProfileMassege from '../components/ProfileMassege'
 import Footer from '../components/Footer'
 import H1 from '../components/H1'
-import Sns from '../components/Sns'
 
 const Home: NextPage = () => {
   return (
@@ -26,13 +25,12 @@ const Home: NextPage = () => {
           <Menu text='500px' url='https://500px.com/p/nanamurakami?view=photos' />
           <Menu text='愛猫アカウント' url='https://www.instagram.com/web_engineer_77/' />
         </div>
-        <div style={{ marginTop: "3rem" }}>
+        <div style={{ margin: "3rem 0" }}>
           <H1 text='愛猫アカウント' />
           <ProfileMassege text='愛猫アカウント' />
         </div>
       </div>
-      <Sns text='' />
-      <Footer text='Copyright © 2022 Umu Inc. All Rights Reserved.' />
+      <Footer text='' />
     </div >
   )
 }

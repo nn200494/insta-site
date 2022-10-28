@@ -2,5 +2,10 @@
     background-color: #BBABE8;
     text-align: center;
     color: #fff;
-    padding: 0.1rem;
+    padding: 1rem;
+}
+
+.Footer p {
+    font-size: 13px;
+    margin: 0;
 }
