@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <Head>
         <title>nana Web系エンジニア</title>
         <meta name="description" content="プロフィールサイト" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.jpg" />
       </Head>
       <Header text='Nana Web系エンジニア' />
       <div>
